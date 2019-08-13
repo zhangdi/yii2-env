@@ -44,7 +44,7 @@ class Env
         if ($value === null) {
             return $defaultValue;
         }
-        return \in_array($value, self::$trueValues);
+        return \in_array(\strtolower($value), self::$trueValues);
     }
 
     /**
