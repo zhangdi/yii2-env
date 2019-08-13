@@ -1,15 +1,16 @@
 {
-    "name": "vendor_name/package_name",
-    "description": "description_text",
+    "name": "zhangdi/yii2-env",
+    "description": "The env extension for Yii2",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
     "authors": [
         {
-            "name": "author's name",
-            "email": "email@example.com"
+            "name": "Zhang Di",
+            "email": "zhangdi_me@163.com"
         }
     ],
     "require": {
+        "php": ">= 7.0",
         "yiisoft/yii2": "~2.0.10"
     },
     "repositories": [
@@ -20,6 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
+            "ZhangDi\\Env\\": "src"
         }
     }
 }
